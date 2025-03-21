@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Abdlrhman</title>
+    
+</head>
+<body>
+    <!-- Header Section -->
+<header
+  class="navbar navbar-expand-lg navbar-dark fixed-top"
+  
+>
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand logo text-danger" href="#">Abdlrhman</a>
+
+    <!-- Toggler (hamburger) for mobile -->
+    <button
+      class="navbar-toggler btn-dan ger font-weight-bold"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarContent"
+      aria-controls="navbarContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      style="border: 2px solid rgb(100, 92, 19); color: white !important;"
+    >
+      <span class="navbar-toggler-icon text-warning"></span>
+    </button>
+
+    <!-- Collapsible Navbar Content -->
+    <div class="collapse navbar-collapse " id="navbarContent">
+      <!-- Navigation Links (push to the right using ml-auto) -->
+      <ul class="navbar-nav ml-auto navg">
+        <li class="nav-item">
+          <a class="nav-link text-danger" href="#serv">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-danger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-danger" href="#cont">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Theme Switcher (still on the same line, with margin-left) -->
+      <div class="theme-switcher ml-3">
+        <input type="checkbox" id="themeToggleSwitch" />
+        <label for="themeToggleSwitch" class="theme-label">
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+    <!-- Main Section -->
+    <section class="main">
+        <div>
+            <h2>Hello, I am Abdulrhman <br /><span>Web Developer</span></h2>
+            <h3>Building life-changing websites</h3>
+            <a href="#projects" class="mb">View my work</a>
+            <!-- Social Media Links -->
+            <div class="social">
+                <a href="https://www.linkedin.com/in/abdulrahman-wael-8b471728a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AbdulrhmanHammouda" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100032990631325" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="cards" id="serv">
+        <h2 class="title">Services</h2>
+        <div class="cont">
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-code"></i></div>
+                <div class="info">
+                    <h3>Coding</h3>
+                    <p>Providing clean, efficient, and maintainable code to bring your ideas to life with precision and creativity.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <div class="info">
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and user-friendly websites tailored to meet your business needs and enhance user experience.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-database"></i></div>
+                <div class="info">
+                    <h3>Database Management</h3>
+                    <p>Efficiently managing and organizing data to ensure seamless access, security, and scalability for your applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects"></section>
+        <h2 class="title">Projects</h2>
+        <div class="cont">
+            <div class="procard">
+                <div class="proimg">
+                    <img src="image.png" alt="Project Image" />
+                </div>
+                <div class="info">
+                    <p class="category">Coding</p>
+                    <strong class="protitle"></strong>
+                        <span>Tourists Website</span>
+                        <a target="_blank" href="https://662ba3d5f17c81cc0f2ba71c--chipper-sorbet-15525e.netlify.app/" class="more">More details</a>
+                    </strong>
+                </div>
+            </div>
+
+
+            <div class="procard">
+                <div class="proimg">
+                    <img src="mangsys.png" alt="Project Image" />
+                </div>
+                <div class="info">
+                    <p class="category">Coding</p>
+                    <strong class="protitle"></strong>
+                        <span>Tourists Website</span>
+                        <a target="_blank " href="https://bespoke-licorice-8a002f.netlify.app/" class="more">More details</a>
+                    </strong>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="cont">
+        <h2 class="title">Contact</h2>
+        <div class="cont">
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p><a href="mailto:bodyanaj@gmail.com">bodyanaj@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+20101946198</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Abdulrhman. All Rights Reserved.</p>
+    </footer>   <script src="script.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+ <script src="js/popper.min.js"></script>
+
+<script src="js/bootstrap.js"></script>
+ 
+</body>
+</html>
